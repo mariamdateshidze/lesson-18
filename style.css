@@ -1,0 +1,130 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(22, 22, 22);
+}
+
+#clock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    color: aquamarine;
+    font-size: 170px;
+   
+}
+
+
+
+
+
+
+.slider-wrapper {
+    
+   
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.slider-item {
+    display: none;
+    position: relative;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.slider-item.animating {
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+}
+.slider-item.active {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+}
+.slider-item .caption {
+    position: absolute;
+    top: 40%;
+    z-index: 10;
+    left: 45%;
+    text-align: center;
+}
+.slider-btns {
+    text-align: center;
+    margin-top: 40px;
+
+}
+img{
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.slider-buttons{
+    margin-left: 540px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  
+   
+  
+}
+
+#start-slide-btn{
+    margin-right: 40px;
+    height: 40px;
+    padding: 10px;
+    background-color: palevioletred;
+    border: none;
+    border-radius: 10px;
+}
+
+
+#stop-slide-btn{
+    margin-right: 40px;
+    height: 40px;
+    padding: 10px;
+    background-color: palevioletred;
+    border: none;
+    border-radius: 10px;
+}
+
+#stop-slide-btn:hover{
+    background-color: rgb(240, 82, 134);
+
+}
+
+#start-slide-btn:hover{
+    background-color: rgb(240, 82, 134);
+
+}
+
+.ball{
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50px;
+    margin-right: 10px;
+    margin-top: 80px;
+    
+}
+
+.balls {
+    margin-left: 620px;
+}
+
+.second{
+    background-color: rgb(177, 169, 169);
+}
+
+.third{
+    background-color: rgb(119, 115, 115);
+}
