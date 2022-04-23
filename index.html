@@ -8,49 +8,52 @@
     <title>Document</title>
 </head>
 <body>
+    <main class="container">
+        
+        <p id="clock"></p>
+        
+        <div class="slider-wrapper">
+            <div class="slider-item active">
+                <img src="https://picsum.photos/1200/400?random=1" />
+                <div class="caption">
+                    <h2>Caption 1 heading</h2>
+                    <p>Caption 1 desc</p>
+                </div>
+            </div>
+            <div class="slider-item">
+                <img src="https://picsum.photos/1200/400?random=2"/>
+                <div class="caption">
+                    <h2>Caption 2 heading</h2>
+                    <p>Caption 2 desc</p>
+                </div>
+            </div>
+            <div class="slider-item">
+                <img src="https://picsum.photos/1200/400?random=3" />
+                <div class="caption">
+                    <h2>Caption 3 heading</h2>
+                    <p>Caption 3 desc</p>
+                </div>
+            </div>
+        </div>
+        <div class="slider-btns">
+            <button id="prev-slide-btn"><<</button>
+            <button id="next-slide-btn">>></button>
+        </div>
+
+
+        <div class="balls">
+        <button class="ball first"></button>
+        <button class="ball second"></button>
+        <button class="ball third"></button>
+        </div>
+
+        <div class="slider-buttons">
+            <button id="start-slide-btn"> startAutoSliding</button>
+            <button id="stop-slide-btn">stopAutoSliding</button>
+        </div>
+
+    </main>
    
-    <p id="clock"></p>
-    
-
-    <div class="slider-wrapper">
-        <div class="slider-item active">
-            <img src="https://picsum.photos/1200/400?random=1" />
-            <div class="caption">
-                <h2>Caption 1 heading</h2>
-                <p>Caption 1 desc</p>
-            </div>
-        </div>
-        <div class="slider-item">
-            <img src="https://picsum.photos/1200/400?random=2"/>
-            <div class="caption">
-                <h2>Caption 2 heading</h2>
-                <p>Caption 2 desc</p>
-            </div>
-        </div>
-        <div class="slider-item">
-            <img src="https://picsum.photos/1200/400?random=3" />
-            <div class="caption">
-                <h2>Caption 3 heading</h2>
-                <p>Caption 3 desc</p>
-            </div>
-        </div>
-    </div>
-    <div class="slider-btns">
-        <button id="prev-slide-btn"><<</button>
-        <button id="next-slide-btn">>></button>
-    </div>
-
-
-    <div class="balls">
-       <button class="ball first"></button>
-       <button class="ball second"></button>
-       <button class="ball third"></button>
-    </div>
-
-    <div class="slider-buttons">
-        <button id="start-slide-btn"> startAutoSliding</button>
-        <button id="stop-slide-btn">stopAutoSliding</button>
-    </div>
 
 
     <script src="app.js"></script>
